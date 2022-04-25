@@ -24,9 +24,8 @@ namespace OperatorExercise
             Console.WriteLine("What is the radius of the circle?");
             var radius = double.Parse(Console.ReadLine());
 
-          
-            Console.WriteLine($"The area of a circle with radius of {radius} is {AreaOfCircle(radius)}");
 
+            Console.WriteLine($"The area of a circle with radius of {radius} is {AreaOfCircle(radius)}");
         }
 
         // Exercise 1
